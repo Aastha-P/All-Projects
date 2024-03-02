@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    margin: 10px;
+    display: flex;
+}
+
+
+.main-a{
+    /* background-color: aqua; */
+    background: #ffffff;
+    width: 86%;
+    margin-right: 10px;
+}
+
+.main-1 h2{
+    margin: 30px 30px 30px 15px;
+}
+
+#main .fa-angle-right{
+    margin-left: 70%;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.main-1{
+    display: flex;
+    align-items: center;
+}
+.main-b{
+    /* background: red; */
+    background: #ffffff;
+    width: 20%;
+
+}
+
+.main-2{
+    display: flex;
+    padding: 15px;
+}
+.main-con{
+    margin-right: 10px;
+    /* height: 100%; */
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border: .5px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.main-con img{
+    width: 80%;
+    margin-top:30px;
+}
+
+.one{
+    margin: 15px;
+}
+
+#main-one{
+    width: 98.5%;
+    background: #ffffff;
+    margin-left: 10px;
+}
+#main-one .fa-angle-right {
+    margin-left: 70%;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+#main-second{
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background: black; */
+    width: 99.5%;
+    display: flex;
+}
+
+.main-second-1{
+    background: #ffffff;
+    width: 60%;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+.none h2{
+    margin-top: 10px;
+}
+
+#main-second .icon{
+    margin-left: 90%;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+
+.main-second-1-a{
+    display: flex;
+}
+
+.main-second-1-b{
+    display: flex;
+}
+
+#stories{
+    margin: 90px 10px;
+    color: #565656;
+    line-height-step: 2px;
+
+}
+
+#stories p{
+    margin-top: 20px;
+    font-size:14px;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+}
+
+#stories span{
+    font-size: 15px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.heading {
+    color: gray;
+}
+
+li {
+    list-style: none;
+}

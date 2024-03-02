@@ -1,0 +1,127 @@
+nav {
+    background: #ffffff;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    margin-left: 3%;
+}
+
+#nav1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+#logo_name {
+    font-size: 25px;
+    font-family: 'Helvetica', sans-serif;
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+}
+
+#logo_name1 {
+    font-style: italic;
+    font-family: sans-serif;
+    color: #9E9E9E;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#logo_name2 {
+    color: #ffc200;
+    font-weight: bold;
+}
+
+#nav2 {
+    display: flex;
+    align-items: center;
+    background-color: #F0F5FF;
+    padding: 4px;
+    margin-left: -2%;
+    border-radius: 10px;
+}
+
+#input_data {
+    border: none;
+    height: 13px;
+    width: 460px;
+    padding-left: 10px;
+    background-color: #F0F5FF;
+    font-size: 17px;
+}
+
+
+
+#nav3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: -4%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+}
+/* #nav3:hover{
+    background: blue;
+    color: #ffffff;
+} */
+#nav3 img{
+    margin-left: 5px;
+}
+#nav3 img:hover{
+    color: #ffffff;
+}
+
+/* #nav3 p {
+    margin: 0 0 5px 8px;
+} */
+
+select{
+    margin-left: 5px;
+    font-size: 17px;
+    border: none;
+}
+#nav3:hover,select:hover{
+    background: blue;
+    color: #ffffff;
+}
+/* .fa-solid{
+    margin: 0 0 10px 10px;
+} */
+/* #nav3 img {
+    margin: 0 0 5px 8px;
+} */
+
+#nav4 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    margin-left: -15px;
+}
+
+#nav4 span {
+    margin: 0 0 2px 9px;
+}
+
+#nav5 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: -18px;
+    font-size: large;
+}
+
+#nav6 {
+    display: flex;
+    text-align: center;
+    margin: 10px 10px 0 -18px;
+}
