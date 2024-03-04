@@ -9,17 +9,16 @@ pageTurnBtn.forEach((el,index) => {
             pageTurn.classList.remove('turn');
             setTimeout(()=>{
                 pageTurn.style.zIndex=20-index;
+
             }, 500)
         }
         else{
             pageTurn.classList.add('turn');
             setTimeout(()=>{
                 pageTurn.style.zIndex=20+index;
+
             }, 500)
         }
     }
 })
 
-//contact me button on click
-const pages=document.querySelectorAll('book-page.page-right');
-const contactMeBtn=document.querySelector('');
