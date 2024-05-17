@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6499e2ee6e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <h1 class="logo" >My World</h1> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <h1>Hi,<br>I'm <span>Aastha Patel</span></h1>
+                <!-- <p>Web Developer</p> -->
+            </div>
+        </div>
+    </div>
+    <!-----------About--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Aasthapatel.jpg" width="40%" height="80%">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! 👋 I'm Aastha Patel, a computer science student at Sagar Institute of Science and Technology
+                    Affiliated to RGPV and approved by AICTE. I'm deeply passionate about all things tech and I'm excited about the endless
+                    possibilities that computer science offers.
+                    I'm particularly fascinated by Web development, and I'm always eager to learn more and take on new challenges. I enjoy
+                    to learn new technology in my spare time.</p>
+
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tablinks" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents active-tab" id="skills">
+                        <ul>
+                            <li><span>web development</span><br>HTML,CSS,JavaScript</li>
+                            <li><span>Competitive Programming</span><br>C,C++,Data Structure</li>
+                            <li><span>Core Subjects</span><br>Data Structure,OOPS,DBMS, Operating System</li>
+                            <li><span>Fmiliar With</span><br>Python,Java,PHP</li>
+                            <!-- <li><span>Python development</span><br>Building android App </li> -->
+                            <!-- <li><span>UI/UX</span><br>Designinig Web/App interface</li> -->
+                        </ul>
+                    </div>
+
+                    <!-- <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>2023(current)</span><br>Designinig apps</li>
+                            <li><span>2022</span><br>Designinig Web/App development</li>
+                            <li><span>2021</span><br>Building Websites </li>
+                        </ul>
+                    </div> -->
+
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>Computer Science<br>Sagar Institute Of Science and Technology,Bhopal</li>
+                            <li><span>12<sup>th</sup></span><br>Govt. Higher Secondary School,Madhya Pradesh</li>
+                            <li><span>10<sup>th</sup></span><br>Saraswati Higher Secondary School,Madhya Pradesh</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle mar-gin">My Services</h1>
+            <div class="services-list">
+                <div>   
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>My skills and proficiency in web design technologies, such as HTML, CSS, JavaScript, responsive design, and
+                    any relevant frameworks.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Developer</h2>
+                    <p>familiar With Python Basics and libraries</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-list"></i>
+                    <h2>Competitive Programming</h2>
+                    <p>For Cometitive prgramming i used to C,C++ Languages and i'm also aware with DSA concepts</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio(work)------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle marg-in">My Work</h1>
+            <h2>(Projects)</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/music.jpg" height="70%">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>My Tech World</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Book.jfif" height="70%">
+                    <div class="layer">
+                        <h3>Book Visuals</h3>
+                        <p>Collection of Knowledge</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Flipkart.jfif" height="70%">
+                    <div class="layer">
+                        <h3>Flipkart Clone</h3>
+                        <p>Online Shopping App</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>  
+        <a href="#" class="btn">See More</a>
+    </div>
+
+    <!-- ---------contact------- -->      
+    <div id="contact">
+        <div class="container">
+            <h1 id="con" class="subtitle magi-n">Contact Me</h1>
+            <pre>  Let's Connect🤝:     If you share my enthusiasm for technology or have any opportunities for collaboration, please feel free to connect with me.
+                                                                      I'm always up for networking or brainstorming ideas.
+            </pre>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-paper-plane"></i>aasthap1030@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>1234557890</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/patelaastha/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Resume Aastha Patel.docx" download class="btn btn2 resume">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Eamil" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Made By <i class="fa-solid fa-heart"></i> Aastha.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+        <script>
+            var sidmenu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidmenu.style.right="1000";
+            }
+
+            function closemenu() {
+                    sidmenu.style.right = "200";
+                }
+        </script>
+</body>
+</html>
